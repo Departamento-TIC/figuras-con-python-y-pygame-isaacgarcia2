@@ -43,13 +43,13 @@ while not hecho:
     # -------------------------------------------------------
 
     # Línea: pygame.draw.line(pantalla, color, [x1, y1], [x2, y2], grosor)
-    pygame.draw.line(pantalla, NEGRO, [50, 50], [200, 50], 3)
-
+    pygame.draw.line(pantalla, NEGRO, [550, 400], [650, 500], 3)
+    pygame.draw.line(pantalla, NEGRO, [450, 400], [550, 500], 3)
     # Rectángulo: pygame.draw.rect(pantalla, color, [x, y, ancho, alto], grosor)
     #   grosor=0 → relleno; grosor>0 → solo borde
     pygame.draw.rect(pantalla, AZUL, [350, 200, 200, 200], 0)
-    pygame.draw.rect(pantalla, BLANCO, [380, 220, 40, 50], 0)
-    pygame.draw.rect(pantalla, BLANCO, [480, 330, 50, 80], 0)
+    pygame.draw.rect(pantalla, NEGRO, [380, 220, 40, 50], 0)
+    pygame.draw.rect(pantalla, NEGRO, [480, 330, 50, 70], 0)
     
     # Elipse / círculo: pygame.draw.ellipse(pantalla, color, [x, y, ancho, alto], grosor)
     #pygame.draw.ellipse(pantalla, ROJO, [250, 100, 120, 120], 0)
@@ -75,3 +75,4 @@ while not hecho:
 
 # --- Salir de Pygame ---
 pygame.quit()
+
