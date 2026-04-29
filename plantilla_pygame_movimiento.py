@@ -72,9 +72,19 @@ while not hecho:
     # -------------------------------------------------------
 
     # Círculo como objeto móvil
-    pygame.draw.circle(pantalla, AZUL, (objeto_x, objeto_y), RADIO)
-    pygame.draw.circle(pantalla, NEGRO, (objeto_x, objeto_y), RADIO, 2)  # borde
+    
 
+    pygame.draw.circle(pantalla, AMARILLO, (objeto_x, objeto_y), RADIO, 1 )
+    pygame.draw.circle(pantalla, ROJO, (objeto_x, objeto_y), RADIO, 2 )
+    pygame.draw.circle(pantalla, AMARILLO, (objeto_x, objeto_y), RADIO, 3 )
+    pygame.draw.circle(pantalla, AMARILLO, (objeto_x, objeto_y), RADIO, 4 )
+    pygame.draw.circle(pantalla, ROJO, (objeto_x, objeto_y), RADIO, 5 )
+    pygame.draw.circle(pantalla, AMARILLO, (objeto_x, objeto_y), RADIO, 6 )
+    
+    
+
+
+    
     # Puedes sustituirlo por un rectángulo:
     # pygame.draw.rect(pantalla, ROJO, [objeto_x - 25, objeto_y - 25, 50, 50])
 
@@ -91,3 +101,4 @@ while not hecho:
 
 # --- Salir de Pygame ---
 pygame.quit()
+
